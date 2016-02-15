@@ -1,0 +1,36 @@
+footer {
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 1%;
+  padding-bottom: 0;
+  margin-top: 0;
+  background: #eaeaea;
+  background: -moz-linear-gradient(top, #eaeaea 0%, #d6d6d6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaeaea), color-stop(100%, #d6d6d6));
+  background: -webkit-linear-gradient(top, #eaeaea 0%, #d6d6d6 100%);
+  background: linear-gradient(top, #eaeaea 0%, #d6d6d6 100%);
+  color: #929191;
+  text-shadow: 1px 1px 0 #f5f5f5;
+  border: 1px solid #ddd;
+
+  div {
+    font-size: .7em;
+    display:inline-block;
+    width:30%;
+    vertical-align: middle;
+    margin-top:5px;
+  }
+  :nth-child(2) {
+    font-size: 1.2em;
+    text-align: center;
+    font-style: italic;
+    width:38%;
+  }
+  div:nth-last-of-type(1) {
+    text-align:right;
+    width:30%;
+  }
+}

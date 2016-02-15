@@ -1,0 +1,17 @@
+header {
+
+  .banner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    .logo {
+      flex: 1 0;
+    }
+    .bonafides {
+      flex:0 0 635px;
+      margin-top: 10px;
+    }
+    // TODO: Hide bonafides when mobile nav kicks in
+  }
+}

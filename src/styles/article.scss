@@ -1,0 +1,21 @@
+h2.title {
+  margin-left: 10px;
+}
+article {
+  margin-bottom: 10px;
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  section {
+    margin-left:10px;
+    //padding:10px;
+    flex: 1 0;
+    padding-right: 15px;
+  }
+  aside {
+    flex: 0 0 210px;
+    border:1px solid #ddd;
+    background: #eee;
+    padding: 10px;
+  }
+}

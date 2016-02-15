@@ -1,0 +1,102 @@
+{
+  "name": "web",
+  "subdomain": "web-boilerplate",
+  "version": "0.1.0",
+  "description": "web",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SteveHartzog/web-boilerplate.git"
+  },
+  "author": "Steve Hartzog <shartzog@gmail.com>",
+  "license": "CC-BY-NC-ND-3.0",
+  "bugs": {
+    "url": "https://github.com/SteveHartzog/web-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SteveHartzog/web-boilerplate",
+  "scripts": {},
+  "config": {
+    "paths": {
+      "source": "./src/",
+      "code": "./src/**/*.js",
+      "main": "./src/main.js",
+      "styles": "./src/styles/**/*.scss",
+      "views": "./src/views/**/[^_]*.hbs",
+      "partials": "./src/views/_*.hbs",
+      "output": "./dist",
+      "images": "./src/images/*"
+    },
+    "navigation": {
+      "navLinks": [
+        { "title": "Services", "href": "/#/services" },
+        { "title": "Partners", "href": "/#/partners" },
+        { "title": "Customers", "href": "/#/customers" },
+        { "title": "Careers", "href": "/#/careers" }
+      ]
+    },
+    "footer": {
+      "tagline": "Pure energy.",
+      "address": "ZogHood, VA 99999",
+      "phoneNumber": "703.867.5309",
+      "emailContact": "sales@myWeb.com"
+    }
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "dependencies": {
+    "router5": "^1.4.0",
+    "router5-history": "^1.0.1",
+    "router5-listeners": "^1.0.0"
+  },
+  "devDependencies": {
+    "app-module-path": "^1.0.5",
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "babelify": "^7.2.0",
+    "bootstrap.native": "^0.9.7-npmfix.1",
+    "browserify": "^13.0.0",
+    "browserify-handlebars": "^1.0.0",
+    "del": "^2.2.0",
+    "eslint": "^1.10.3",
+    "globby": "^4.0.0",
+    "gulp": "^3.9.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-handlebars": "^4.0.0",
+    "gulp-help": "^1.6.1",
+    "gulp-if": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-merge": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "file:node_modules/gulp-util",
+    "gulp-wrap": "^0.11.0",
+    "handlebars": "^4.0.5",
+    "hbsify": "^1.0.1",
+    "http": "0.0.0",
+    "livereload-js": "^2.2.2",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7",
+    "require-directory": "^2.1.1",
+    "run-sequence": "^1.1.5",
+    "st": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-paths": "^2.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0",
+    "yargs": "^3.31.0"
+  },
+  "engines": {
+    "node": "5.2.0"
+  }
+}
